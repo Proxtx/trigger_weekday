@@ -18,3 +18,7 @@ getTriggerConfiguration(() => {
     },
   };
 });
+
+if (triggerPresetData) {
+  daySelect.value = triggerPresetData.day;
+}
